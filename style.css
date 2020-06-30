@@ -1,11 +1,18 @@
 body{
     font-family: 'Piedra', cursive;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 #color{
     color: aqua;
+}
+p{
+    color: rgba(72, 96, 97, 0.774);
 }
 .Half{
     width: 40%;
@@ -15,4 +22,29 @@ h1{
 }
 .Half img{
     width: 100%;
+}
+.Background{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 1500px;
+}
+.Button{
+    text-decoration: none;
+    color: azure;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 700px;
+    background-image: linear-gradient(45deg, yellow, lightsalmon);
+}
+.Im2{
+    border-radius: 5px;
+}
+.Dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
