@@ -114,3 +114,15 @@ footer{
 #secound2{
     margin: 15px;
 }
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black ;
+    text-align: center;
+    padding: 0px 10px;
+}
+th{
+    border: 1px solid black ;
+    text-align: center;
+} 
